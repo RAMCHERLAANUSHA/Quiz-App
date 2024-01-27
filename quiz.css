@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(247, 249, 249);
+}
+hr {
+    color: black; 
+    background-color: black;
+    height: 2px;
+    margin: 20px 0;
+}
+.card{
+    width:550px;
+    height: 450px;
+    margin-top: 80px;
+    margin-left: 400px;
+    border-radius: 2%;
+    background-color: rgb(230, 251, 109);
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+h2{
+    font-size:22px;
+    font-weight: 700;
+    margin-bottom: 8%;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(253, 252, 252);
+    border: 1px solid black;
+    margin-bottom: 15px;
+    width: 460px;
+    height: 35px;
+    text-align: start;
+    border-radius: none;
+    cursor: pointer;
+}
+.btn:hover:not([disabled]){
+    background: #fffdfd;
+    color: #111010;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background-color: rgb(1, 1, 33);
+    color: #fff;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 180px;
+    display: none;
+}
+.correct{
+    background: rgb(81, 252, 51);
+}
+.wrong{
+    background: palevioletred;
+}
+@media screen and (max-width:600px) {
+    .card{
+        margin-left: 45px;
+        width: 250px;
+        height: 340px;
+    }
+    .h1{
+        font-size: 15px;
+        font-weight: 900; 
+    }
+    h2{
+        font-size:12px;
+        font-weight: 900;
+        margin-bottom: 4%;
+    }
+    .btn{
+        width: 200px;
+        height: 25px;
+        font-size: 10px;
+        font-weight: 900;
+    }
+    #next-btn{
+        margin-left: 60px;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px){
+    .card{
+        margin-left: 90px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .card{
+        margin-left: 220px;
+        margin-top: 150px;
+    }
+}
