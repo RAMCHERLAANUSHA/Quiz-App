@@ -9,6 +9,7 @@ HTML, CSS, Bootstrap, JavaScript.
 - It has a feature Keep track of users scores for each quiz attempted.
 - It has multiple choices.
 - Once user select one choice they can't able to choose other.
+- run : quiz.html
 ### Contact
 - Anusha Ramcherla
 - anushareddy8677@gmail.com
