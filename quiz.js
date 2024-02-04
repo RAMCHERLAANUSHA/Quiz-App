@@ -96,7 +96,8 @@ function selectAnswer(e){
         }
         button.disabled = true;
     });
-    // button.disabled = true;
+    selectbtn.style.backgroundColor = "black";
+    selectbtn.style.color = "white";
     nextbutton.style.display = "block";
 }
 

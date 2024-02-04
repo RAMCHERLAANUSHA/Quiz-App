@@ -13,7 +13,7 @@ hr {
     margin-top: 80px;
     margin-left: 400px;
     border-radius: 2%;
-    background-color: rgb(230, 251, 109);
+    background-color: rgb(239, 239, 66);
 }
 h1{
     font-size: 30px;
@@ -44,8 +44,8 @@ h2{
     cursor: no-drop;
 }
 #next-btn{
-    background-color: rgb(1, 1, 33);
-    color: #fff;
+    background-color: black;
+    color: white;
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 1%;
